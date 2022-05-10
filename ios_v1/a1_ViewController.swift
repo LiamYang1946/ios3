@@ -10,6 +10,7 @@ import UIKit
 class a1_ViewController: UIViewController {
 
     override func viewDidLoad() {
+        let a =1
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
