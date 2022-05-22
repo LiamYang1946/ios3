@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="UIMenu" message="Requires Xcode 11 or later." minToolsVersion="11.0" requiredIntegratedClassName="UICommandDiff"/>
@@ -86,10 +86,10 @@
             </objects>
             <point key="canvasLocation" x="34.782608695652179" y="83.705357142857139"/>
         </scene>
-        <!--View Controller-->
+        <!--Converter View Controller-->
         <scene sceneID="8ZM-8M-3dJ">
             <objects>
-                <viewController modalPresentationStyle="fullScreen" id="6aU-As-nQd" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="6aU-As-nQd" customClass="ConverterViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="HD3-Bh-9to">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -521,10 +521,10 @@
             </objects>
             <point key="canvasLocation" x="886.95652173913049" y="83.705357142857139"/>
         </scene>
-        <!--View Controller-->
+        <!--Markets View Controller-->
         <scene sceneID="GbD-xJ-Dml">
             <objects>
-                <viewController modalPresentationStyle="fullScreen" id="X3j-qH-wjW" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="X3j-qH-wjW" customClass="MarketsViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Rfc-GT-SU5">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
